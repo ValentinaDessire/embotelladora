@@ -1,0 +1,58 @@
+/* Restablecer los estilos predeterminados del cuerpo y el margen general */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aplicar una fuente y un fondo a todo el sitio */
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente a tu elección */
+    background-color: #fff4f4; /* Fondo rosado claro */
+    color: #e60067; /* Texto en tono rosa */
+    margin: 10px; /* Margen general para el cuerpo */
+}
+
+/* Estilos de encabezado */
+h1, h2 {
+    color: #e60067; /* Texto en tono rosa */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo para los botones */
+.btn-primary {
+    background-color: #e60067; /* Fondo rosa */
+    border-color: #e60067; /* Borde rosa */
+    margin: 10px 0; /* Margen arriba y abajo */
+}
+
+.btn-primary:hover {
+    background-color: #ff3385; /* Fondo rosa claro al pasar el mouse */
+    border-color: #ff3385; /* Borde rosa claro al pasar el mouse */
+}
+
+/* Estilo para la tabla */
+.table {
+    background-color: #fff; /* Fondo blanco */
+    border: 2px solid #e60067; /* Borde rosa */
+    margin: 20px 0; /* Margen arriba y abajo */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilo para filas pares de la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fff4f4; /* Fondo rosado claro para filas pares */
+}
+
+/* Estilo para filas impares de la tabla */
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #fff; /* Fondo blanco para filas impares */
+}
+
+/* Estilo para el contenido principal */
+.container {
+    margin: 0 auto; /* Centrar el contenido en el medio de la página */
+    max-width: 800px; /* Ancho máximo del contenido */
+    padding: 20px; /* Relleno alrededor del contenido */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Borde redondeado */
+}
